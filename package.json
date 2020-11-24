@@ -1,0 +1,19 @@
+{
+  "name": "vite-tailwind",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.2"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "sass": "^1.29.0",
+    "tailwindcss": "^2.0.1-compat",
+    "vite": "^1.0.0-rc.8"
+  }
+}

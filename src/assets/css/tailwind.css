@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  html {
+    @apply bg-indigo-300 transition-all duration-150;
+  }
+  html.dark{
+    @apply bg-indigo-900;
+  }
+}
